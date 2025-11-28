@@ -1,0 +1,26 @@
+# Exclude generated output files
+outputs/
+
+# Exclude input files (they may contain sensitive data)
+inputs/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.~lock.*
