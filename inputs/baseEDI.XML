@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tc:TrueCommerceOrder xmlns:tc="http://www.truecommerce.com/docs/order" xmlns:cm="http://www.truecommerce.com/docs/common/components" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.truecommerce.com/docs/order truecommerce_order_v1.0.xsd">
+	<MsgHeader>
+		<MsgType>ORDER</MsgType>
+		<VersionID>v1.0</VersionID>
+		<TransmittedDate>
+			<Date>2018-04-10</Date>
+			<Time>15:55:03</Time>
+		</TransmittedDate>
+		<FileDate>
+			<Date>2018-04-10</Date>
+			<Time>15:55:03</Time>
+		</FileDate>
+		<Interchange>
+			<Standard>TRUECOMMERCE</Standard>
+			<SenderRef>2483</SenderRef>
+		</Interchange>
+	</MsgHeader>
+	<Document>
+		<DocHeader>
+			<DocType>ORDER</DocType>
+			<DocFunction>ORIGINAL</DocFunction>
+			<CustAddr>
+				<Code>00010</Code>
+				<EAN13>5000020000115</EAN13>
+				<Name>ABC Foods Limited</Name>
+				<Address1>1 High Street</Address1>
+				<Address5>London</Address5>
+				<Country>GB</Country>
+				<VAT>
+					<Num>123-456-789-123</Num>
+				</VAT>
+				<Contact1>
+					<Name>Carl Denver</Name>
+					<Phone>010101 123 456</Phone>
+					<Fax>010101 123 457</Fax>
+				</Contact1>
+				<Contact2>
+					<Name>Elisabeth Francis</Name>
+					<Phone>010101 123 458</Phone>
+				</Contact2>
+			</CustAddr>
+			<SuppAddr>
+				<Code>TC30816</Code>
+				<EAN13>5024657121929</EAN13>
+				<Name>DemoCo</Name>
+				<Address1>DemoCo House</Address1>
+				<Address2>100 High Street</Address2>
+				<Address5>Worcester</Address5>
+				<PostCode>WR5 1AA</PostCode>
+				<Country>GB</Country>
+				<VAT>
+					<Num>001000203</Num>
+					<Alpha>GB001000203</Alpha>
+				</VAT>
+				<Contact1>
+					<Name>Ellie Jones</Name>
+					<Phone>01905 321987</Phone>
+					<Email>wesdemo@hotmail.co.uk</Email>
+					<Fax>01905 321988</Fax>
+				</Contact1>
+				<Contact2>
+					<Name>Elizabeth Kilbey</Name>
+					<Phone>01905 321986</Phone>
+					<Email>wesdemo@hotmail.co.uk</Email>
+					<Fax>01905 321985</Fax>
+				</Contact2>
+			</SuppAddr>
+			<DocDate>
+				<Date>2018-04-10</Date>
+				<Time>15:46:37</Time>
+			</DocDate>
+			<TranInfo/>
+			<RoutingCode>T80410AAGB</RoutingCode>
+		</DocHeader>
+		<OrderHeader>
+			<CustOrder>CO-001-0003</CustOrder>
+			<CustOrderDate>
+				<Date>2018-04-10</Date>
+				<Time>15:46:00</Time>
+			</CustOrderDate>
+			<SuppOrder>SO0010003</SuppOrder>
+			<OrderClass>A</OrderClass>
+			<OrderBrand>BR001</OrderBrand>
+			<OrderCode>NEW</OrderCode>
+			<Perishable>false</Perishable>
+			<BookingRef>BR-001-0003</BookingRef>
+			<OrigCustOrder>OCR-001-0003</OrigCustOrder>
+			<Delivery>
+				<DelMethod>DELIVER_TO_DEPOT</DelMethod>
+				<ReqDesp>
+					<Date>2018-04-10</Date>
+					<Time>21:59:00</Time>
+				</ReqDesp>
+				<EarliestDesp>
+					<Date>2018-04-10</Date>
+					<Time>22:59:00</Time>
+				</EarliestDesp>
+				<LatestDesp>
+					<Date>2018-04-10</Date>
+					<Time>22:59:00</Time>
+				</LatestDesp>
+				<ReqDel>
+					<Date>2018-04-10</Date>
+					<Time>22:59:00</Time>
+				</ReqDel>
+				<EarliestDel>
+					<Date>2018-04-10</Date>
+					<Time>22:59:00</Time>
+				</EarliestDel>
+				<LatestDel>
+					<Date>2018-04-10</Date>
+					<Time>22:59:00</Time>
+				</LatestDel>
+				<LatestDelLeadTime/>
+				<DespatchFrom>
+					<Code>000</Code>
+					<EAN13>5000010000019</EAN13>
+					<Name>DemoCo</Name>
+					<Address1>DemoCo House</Address1>
+					<Address2>100 High Street</Address2>
+					<Address5>Worcester</Address5>
+					<PostCode>WR5 1AA</PostCode>
+					<Country>GB</Country>
+					<VAT>
+						<Num>001000203</Num>
+						<Alpha>GB001000203</Alpha>
+					</VAT>
+					<Contact1>
+						<Name>Ellie Jones</Name>
+						<Phone>01905 321987</Phone>
+						<Email>wesdemo@hotmail.co.uk</Email>
+						<Fax>01905 321988</Fax>
+					</Contact1>
+					<Contact2>
+						<Name>Elizabeth Kilbey</Name>
+						<Phone>01905 321986</Phone>
+						<Email>wesdemo@hotmail.co.uk</Email>
+						<Fax>01905 321985</Fax>
+					</Contact2>
+				</DespatchFrom>
+				<DeliverTo>
+					<Code>000</Code>
+					<EAN13>5024657121941</EAN13>
+					<Name>ABC Foods Limited</Name>
+					<Address1>1 High Street</Address1>
+					<Address5>London</Address5>
+					<Country>GB</Country>
+					<VAT>
+						<Num>123-456-789-123</Num>
+						<Alpha>123-456-789-123</Alpha>
+					</VAT>
+					<Contact1>
+						<Name>Carl Denver</Name>
+						<Phone>010101 123 456</Phone>
+						<Fax>010101 123 457</Fax>
+					</Contact1>
+					<Contact2>
+						<Name>Elisabeth Francis</Name>
+						<Phone>010101 123 458</Phone>
+					</Contact2>
+				</DeliverTo>
+				<Instructions>
+					<Line1>Please deliver to gate G1</Line1>
+				</Instructions>
+				<DelCombined>false</DelCombined>
+				<MultipleDrops>false</MultipleDrops>
+			</Delivery>
+			<Locations>
+				<OrderBranch>
+					<Code>000</Code>
+					<EAN13>5024657121941</EAN13>
+					<Name>ABC Foods Limited</Name>
+					<Address1>1 High Street</Address1>
+					<Address5>London</Address5>
+					<Country>GB</Country>
+					<VAT>
+						<Num>123-456-789-123</Num>
+						<Alpha>123-456-789-123</Alpha>
+					</VAT>
+					<Contact1>
+						<Name>Carl Denver</Name>
+						<Phone>010101 123 456</Phone>
+						<Fax>010101 123 457</Fax>
+					</Contact1>
+					<Contact2>
+						<Name>Elisabeth Francis</Name>
+						<Phone>010101 123 458</Phone>
+					</Contact2>
+				</OrderBranch>
+				<InvoiceTo>
+					<Code>000</Code>
+					<Name>ABC Foods Limited (Retail Division)</Name>
+					<Address1>1 High Street</Address1>
+					<Address5>London</Address5>
+					<Country>GB</Country>
+					<VAT>
+						<Num>123-456-789-123</Num>
+						<Alpha>123-456-789-123</Alpha>
+					</VAT>
+					<Contact1>
+						<Name>Carl Denver</Name>
+						<Phone>010101 123 456</Phone>
+						<Fax>010101 123 457</Fax>
+					</Contact1>
+					<Contact2>
+						<Name>Elisabeth Francis</Name>
+						<Phone>010101 123 458</Phone>
+					</Contact2>
+				</InvoiceTo>
+				<InvoiceFrom>
+					<Code>000</Code>
+					<EAN13>5000010000019</EAN13>
+					<Name>DemoCo (Research) Ltd</Name>
+					<Address1>DemoCo House</Address1>
+					<Address2>100 High Street</Address2>
+					<Address5>Worcester</Address5>
+					<PostCode>WR5 1AA</PostCode>
+					<Country>GB</Country>
+					<VAT>
+						<Num>001000203</Num>
+						<Alpha>GB001000203</Alpha>
+					</VAT>
+					<Contact1>
+						<Name>Ellie Jones</Name>
+						<Phone>01905 321987</Phone>
+						<Email>wesdemo@hotmail.co.uk</Email>
+						<Fax>01905 321988</Fax>
+					</Contact1>
+					<Contact2>
+						<Name>Elizabeth Kilbey</Name>
+						<Phone>01905 321986</Phone>
+						<Email>wesdemo@hotmail.co.uk</Email>
+						<Fax>01905 321985</Fax>
+					</Contact2>
+				</InvoiceFrom>
+			</Locations>
+			<Notes>
+				<Seq>1</Seq>
+				<Narrative>
+					<Line1>This is in relation to contract 989-0987</Line1>
+				</Narrative>
+			</Notes>
+			<Revision/>
+			<TotalOrderUnits>60</TotalOrderUnits>
+			<TotalOrderVal>840.000</TotalOrderVal>
+			<PricingDate>
+				<Date>2018-04-10</Date>
+				<Time>00:00:00</Time>
+			</PricingDate>
+			<Currency>
+				<InvCurr>GBP</InvCurr>
+				<PayCurr>GBP</PayCurr>
+			</Currency>
+			<AckReq>false</AckReq>
+			<LoadPlan>false</LoadPlan>
+			<Authorised>false</Authorised>
+		</OrderHeader>
+		<OrderLine>
+			<LineNo>1</LineNo>
+			<LineCode>NEW</LineCode>
+			<Item>
+				<CustItem>
+					<OwnBrandEAN>1213192703201</OwnBrandEAN>
+					<Code>LMS</Code>
+					<SKU>SKULMS</SKU>
+				</CustItem>
+				<SuppItem>
+					<Code>LMS</Code>
+					<EAN13>1213192703202</EAN13>
+					<UPC12>121319270320</UPC12>
+					<DUN14>12131927032011</DUN14>
+					<ISBN>sLMS</ISBN>
+					<ManufacturersCode>MCLMS</ManufacturersCode>
+					<Desc1>(s) Large Mixed Salad</Desc1>
+				</SuppItem>
+				<RetailEAN>1213192703201</RetailEAN>
+				<Desc1>Large Mixed Salad</Desc1>
+			</Item>
+			<Perishable>false</Perishable>
+			<UnitOfOrder>
+				<Unit>1</Unit>
+				<OrderMeasure>0</OrderMeasure>
+			</UnitOfOrder>
+			<OrderQty>
+				<Unit>10.000</Unit>
+				<UOM>CASE</UOM>
+			</OrderQty>
+			<PricingMeasure>
+				<MeasureQty>1</MeasureQty>
+			</PricingMeasure>
+			<CostPrice>18.000</CostPrice>
+			<LineAmount>180.000</LineAmount>
+			<SellPrice>
+				<MeasureQty>1</MeasureQty>
+			</SellPrice>
+			<Notes>
+				<Seq>1</Seq>
+				<Narrative>
+					<Line1>No substitutes for this item.</Line1>
+				</Narrative>
+			</Notes>
+			<Delivery>
+				<ReqDesp>
+					<Date>2018-04-10</Date>
+					<Time>22:59:00</Time>
+				</ReqDesp>
+				<ReqDel>
+					<Date>2018-04-10</Date>
+					<Time>22:59:00</Time>
+				</ReqDel>
+				<ReqQty>
+					<Unit>10.000</Unit>
+					<UOM>CASE</UOM>
+				</ReqQty>
+			</Delivery>
+			<OrderBranch>
+				<Code>000</Code>
+				<EAN13>5024657121941</EAN13>
+				<Name>ABC Foods Limited</Name>
+				<Address1>1 High Street</Address1>
+				<Address5>London</Address5>
+				<Country>GB</Country>
+				<VAT>
+					<Num>123-456-789-123</Num>
+					<Alpha>123-456-789-123</Alpha>
+				</VAT>
+				<Contact1>
+					<Name>Carl Denver</Name>
+					<Phone>010101 123 456</Phone>
+					<Fax>010101 123 457</Fax>
+				</Contact1>
+				<Contact2>
+					<Name>Elisabeth Francis</Name>
+					<Phone>010101 123 458</Phone>
+				</Contact2>
+			</OrderBranch>
+			<DespatchFrom>
+				<Code>000</Code>
+				<EAN13>5000010000019</EAN13>
+				<Name>DemoCo</Name>
+				<Address1>DemoCo House</Address1>
+				<Address2>100 High Street</Address2>
+				<Address5>Worcester</Address5>
+				<PostCode>WR5 1AA</PostCode>
+				<Country>GB</Country>
+				<VAT>
+					<Num>001000203</Num>
+					<Alpha>GB001000203</Alpha>
+				</VAT>
+				<Contact1>
+					<Name>Ellie Jones</Name>
+					<Phone>01905 321987</Phone>
+					<Email>wesdemo@hotmail.co.uk</Email>
+					<Fax>01905 321988</Fax>
+				</Contact1>
+				<Contact2>
+					<Name>Elizabeth Kilbey</Name>
+					<Phone>01905 321986</Phone>
+					<Email>wesdemo@hotmail.co.uk</Email>
+					<Fax>01905 321985</Fax>
+				</Contact2>
+			</DespatchFrom>
+			<DeliverTo>
+				<Code>000</Code>
+				<EAN13>5024657121941</EAN13>
+				<Name>ABC Foods Limited</Name>
+				<Address1>1 High Street</Address1>
+				<Address5>London</Address5>
+				<Country>GB</Country>
+				<VAT>
+					<Num>123-456-789-123</Num>
+					<Alpha>123-456-789-123</Alpha>
+				</VAT>
+				<Contact1>
+					<Name>Carl Denver</Name>
+					<Phone>010101 123 456</Phone>
+					<Fax>010101 123 457</Fax>
+				</Contact1>
+				<Contact2>
+					<Name>Elisabeth Francis</Name>
+					<Phone>010101 123 458</Phone>
+				</Contact2>
+			</DeliverTo>
+			<Tax>
+				<TaxCode>Z</TaxCode>
+				<TaxPcnt>0.00</TaxPcnt>
+				<DutyCode>STD</DutyCode>
+			</Tax>
+		</OrderLine>
+		<DocTrailer>
+			<TotalLines>3</TotalLines>
+		</DocTrailer>
+	</Document>
+	<MsgTrailer>
+		<TotalDocs>1</TotalDocs>
+	</MsgTrailer>
+</tc:TrueCommerceOrder>

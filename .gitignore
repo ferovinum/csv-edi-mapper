@@ -1,9 +1,6 @@
 # Exclude generated output files
 outputs/
 
-# Exclude input files (they may contain sensitive data)
-inputs/
-
 # Python cache files
 __pycache__/
 *.pyc
